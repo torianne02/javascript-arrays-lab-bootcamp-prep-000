@@ -13,5 +13,6 @@ function destructivelyRemoveFirstKitten() {
   return kittens.shift();
 }
 function appendKitten(name) {
-  var newKittenArray = 
+  var newKittenArray = ...kittens + name;
+  return newKittenArray;
 }
