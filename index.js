@@ -20,3 +20,6 @@ function prependKitten(name) {
   var newKittensArray = [name, ...kittens];
   return newKittensArray;
 }
+function removeLastKitten() {
+  
+}
